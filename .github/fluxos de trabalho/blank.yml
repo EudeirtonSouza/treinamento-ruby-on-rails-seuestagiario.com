@@ -1,0 +1,10 @@
+ nome: Cache
+  com:
+    # Uma lista de arquivos, diretórios e padrões de curinga para armazenar em cache e restaurar
+    caminho: 
+    # Uma chave explícita para restaurar e salvar o cache
+    chave: 
+    # Uma lista ordenada de chaves a serem usadas para restaurar o cache se nenhum acerto de cache ocorreu para a chave
+    chaves de restauração: # opcional
+    # O tamanho do bloco usado para dividir arquivos grandes durante o upload, em bytes
+    upload-chunk-size: # opcional
